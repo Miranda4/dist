@@ -1,0 +1,23 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#aviso": {
+    "path": "/aviso-privacidad"
+  },
+  "store.custom#politicas": {
+    "path": "/politicas"
+  },
+  "store.custom#contact-us": {
+    "path": "/contact-us"
+  },
+  "store.custom#terminos-y-condiciones": {
+    "path": "/terminos-y-condiciones"
+  },
+  "store.storelocator":{
+    "path": "/tiendas"
+  }
+}
