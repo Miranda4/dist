@@ -1948,9 +1948,9 @@
 :global(.vtex-rich-text-0-x-wrapper--botonText5) {
   background-color: #e42990;
   max-width: 268px;
-  border-radius: 30px;
+  border-radius: 5px;
   height: 36px;
-  margin-bottom: 15%;
+  /* margin-bottom: 15%; */
   margin-top: 20%;
 }
 :global(.vtex-rich-text-0-x-paragraph--botonText1),
@@ -2054,7 +2054,7 @@
   background-color: #e42990;
   border: hidden;
   font-size: 14px;
-  border-radius: 28px;
+  border-radius: 5px;
   width: 91px;
   min-height: 36px;
   height: 36px;
@@ -2267,7 +2267,7 @@
   background-color: #e42990;
   color: #ffffff;
   border: hidden;
-  border-radius: 28px;
+  border-radius: 5px;
   width: 209px !important;
   height: 38px !important;
   margin-right: 34px;
@@ -2325,7 +2325,7 @@
 }
 :global(.vtex-store-components-3-x-infoCardCallActionContainer--taniaInfo)
   :global(.vtex-button) {
-  border-radius: 28px;
+  border-radius: 5px;
   border: hidden;
   background-color: #e42990;
   width: 215px;
@@ -2358,7 +2358,7 @@
 }
 :global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-promoBanner)
   :global(.vtex-button) {
-  border-radius: 28px;
+  border-radius: 5px;
   border: hidden;
   background-color: #e42990;
   width: 91px;
@@ -2408,7 +2408,7 @@
 :global(.vtex-store-components-3-x-infoCardCallActionContainer--infoTania-mobile)
   :global(.vtex-button) {
   border: hidden;
-  border-radius: 28px;
+  border-radius: 5px;
   background-color: #e42990;
   height: 36px;
   width: 91px;
@@ -3315,7 +3315,7 @@ border-radius: 5px;
 
 :global(.vtex-flex-layout-0-x-flexRowContent--reviewsRow)
 :global(.vtex-dropdown__arrow){
-  display: none;
+  /* display: none; */
 }
 
 
@@ -3747,11 +3747,11 @@ border-radius: 5px;
 
 :global(.vtex-flex-layout-0-x-flexRow--group1){
   border: 1px solid #cecece;
-  border-radius: 28px;
+  border-radius: 5px;
 }
 :global(.vtex-flex-layout-0-x-flexRow--group2){
   border: 1px solid #cecece;
-  border-radius: 28px;
+  border-radius: 5px;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--first),
@@ -5185,4 +5185,66 @@ border-radius: 5px;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
+}
+
+:global(.vtex-store-components-3-x-imageElement--rowCol2){
+  margin-left: 40%;
+  margin-top: 2%;
+  position: absolute;
+  right: 10px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--misionVisionRow2){
+  padding-top: 10em;
+} 
+
+:global(.vtex-flex-layout-0-x-flexColChild--localStoreMobileCol){
+  background-color: #F58831;
+}
+
+@media (max-width:1024px) {
+  :global(.vtex-rich-text-0-x-paragraph--localStoresCol1Text){
+    font-size: 40px;  
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--localStores2){
+    margin-top: 15px;
+    margin-bottom: 0px; 
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--localStores){
+    height: 225px;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width:1025px) {
+  :global(.vtex-rich-text-0-x-paragraph--localStoresCol1Text){
+    margin-top: 33px;
+    margin-bottom: 33px;
+    text-align: center;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--localStoresCol1Text){
+    /* margin: 6% 0px; */
+  }
+}
+
+@media (min-width:1090px) {
+  :global(.vtex-rich-text-0-x-paragraph--localStoresCol1Text){
+    margin-top: 53px;
+    margin-bottom: 53px;
+  }
+}
+
+:global(.vtex-rich-text-0-x-link--localStores2){
+  padding: 5px 27px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+:global(.vtex-rich-text-0-x-link--localStores2):hover{
+  background-color: #E42990;
 }

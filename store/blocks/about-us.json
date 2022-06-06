@@ -211,7 +211,7 @@
   },
   "image#rowCol2":{
     "props":{
-      "width":"50%",
+      
       "blockClass":"rowCol2",
       "src":"assets/rowCol2.png"
     }
@@ -347,7 +347,7 @@
   "rich-text#localStores2":{
     "props":{
       "blockClass":"localStores2",
-      "text":"Localizar mi tienda"
+      "text":"[Localizar mi tienda](/stores)"
     }
   },
 
@@ -363,6 +363,7 @@
 
   "rich-text#localStoresCol1":{
     "props":{
+
       "blockClass":"localStoresCol1Text",
       "text":"Localiza nuestras tiendas"
     }
